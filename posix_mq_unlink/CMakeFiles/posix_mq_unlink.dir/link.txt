@@ -1,0 +1,1 @@
+/usr/bin/c++     -lrt CMakeFiles/posix_mq_unlink.dir/main.cpp.o  -o posix_mq_unlink 
