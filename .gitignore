@@ -38,6 +38,16 @@
 .idea/**/workspace.xml
 .idea/**/tasks.xml
 .idea/dictionaries
+posix_mq_receivetime/.idea/
+posix_mq_receive/.idea/
+posix_mq_receivetimeout/.idea/
+posix_mq_send/.idea/
+posix_mq_send/CMakeFiles/
+posix_mq_send_simulator/.idea/
+posix_mq_unlink/.idea/
+posix_mq_receive/CMakeFiles/
+posix_mq_unlink/CMakeFiles/
+posix_mq_receive/CMakeFiles/
 
 # Sensitive or high-churn files:
 .idea/**/dataSources/

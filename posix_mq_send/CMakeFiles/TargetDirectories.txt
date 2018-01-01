@@ -1,3 +1,0 @@
-/home/eduardo/Private/posix_mq/posix_mq_send/CMakeFiles/rebuild_cache.dir
-/home/eduardo/Private/posix_mq/posix_mq_send/CMakeFiles/posix_mq_send.dir
-/home/eduardo/Private/posix_mq/posix_mq_send/CMakeFiles/edit_cache.dir

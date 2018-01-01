@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="posix_mq_receive"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/eduardo/Private/posix_mq/posix_mq_receive"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/eduardo/Private/posix_mq/posix_mq_receive/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/eduardo/Private/posix_mq/posix_mq_receive/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/eduardo/Private/posix_mq/posix_mq_receive/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/eduardo/Private/posix_mq/posix_mq_receive/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/eduardo/Private/posix_mq/posix_mq_receive"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/eduardo/Private/posix_mq/posix_mq_receive/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/eduardo/Private/posix_mq/posix_mq_receive/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/eduardo/Private/posix_mq/posix_mq_receive/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/eduardo/Private/posix_mq/posix_mq_receive/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/eduardo/Private/posix_mq/posix_mq_receive"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/eduardo/Private/posix_mq/posix_mq_receive/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/eduardo/Private/posix_mq/posix_mq_receive/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/eduardo/Private/posix_mq/posix_mq_receive/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/eduardo/Private/posix_mq/posix_mq_receive/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="posix_mq_receive">
+				<Option output="/home/eduardo/Private/posix_mq/posix_mq_receive/posix_mq_receive" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/eduardo/Private/posix_mq/posix_mq_receive"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/c++/7/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/7/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/7/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/eduardo/Private/posix_mq/posix_mq_receive/Makefile&quot;  VERBOSE=1 posix_mq_receive"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/eduardo/Private/posix_mq/posix_mq_receive/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/eduardo/Private/posix_mq/posix_mq_receive/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/eduardo/Private/posix_mq/posix_mq_receive/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="posix_mq_receive/fast">
+				<Option output="/home/eduardo/Private/posix_mq/posix_mq_receive/posix_mq_receive" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/eduardo/Private/posix_mq/posix_mq_receive"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/c++/7/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/7/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/7/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/eduardo/Private/posix_mq/posix_mq_receive/Makefile&quot;  VERBOSE=1 posix_mq_receive/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/eduardo/Private/posix_mq/posix_mq_receive/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/eduardo/Private/posix_mq/posix_mq_receive/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/eduardo/Private/posix_mq/posix_mq_receive/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/eduardo/Private/posix_mq/posix_mq_receive/main.cpp">
+			<Option target="posix_mq_receive"/>
+		</Unit>
+		<Unit filename="/home/eduardo/Private/posix_mq/posix_mq_receive/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,1 +1,0 @@
-/usr/bin/c++     -lrt CMakeFiles/posix_mq_send.dir/main.cpp.o  -o posix_mq_send 
