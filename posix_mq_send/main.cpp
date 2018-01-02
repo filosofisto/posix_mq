@@ -3,7 +3,7 @@
 #include <mqueue.h>
 #include <errno.h>
 #include <cstring>
-
+#include <sstream>
 #ifdef sun
 #include <fcntl.h>
 #endif
@@ -13,12 +13,12 @@ using namespace std;
 int main(int argc, char **argv) {
     cout << "Message Posix Sample" << endl;
 
-    if (argc < 2) {
+    /*if (argc < 2) {
         cerr << "Usage: " << endl
              << "\t" << argv[0] << " <data>" << endl
              << "\tWhere <data> is text for send to queue" << endl;
         return EXIT_FAILURE;
-    }
+    }*/
 
     mqd_t queue;
 
@@ -30,15 +30,27 @@ int main(int argc, char **argv) {
         return EXIT_FAILURE;
     }
 
-    if (mq_send(queue, argv[1], strlen(argv[1]), 0) == -1) {
-        cerr << "Error on send data to queue: "
-             << strerror(errno)
-             << endl;
-        return EXIT_FAILURE;
-    }
-
     cout << "Message opened success" << endl;
-    cout << "Message inserted in queue" << endl;
+
+    int messageId = 0;
+    stringstream ss;
+
+    while (messageId < 20) {
+        ss << "Message " << messageId;
+
+        if (mq_send(queue, ss.str().c_str(), ss.str().size(), 0) == -1) {
+            cerr << "Error on send data to queue: "
+                 << strerror(errno)
+                 << endl;
+            return EXIT_FAILURE;
+        }
+
+        ss.str(string());
+
+        cout << "Message inserted in queue" << endl;
+
+        messageId++;
+    }
 
     if (mq_close(queue) == -1) {
         cerr << "Error on close queue: "
